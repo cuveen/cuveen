@@ -1,0 +1,28 @@
+{
+    "name": "cuveen/cuveen",
+    "description": "A PHP framework for web artisans",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "bee"
+    ],
+    "require": {
+        "php": "^7.1",
+        "cuveen/framework": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tuyen Pham",
+            "email": "tuyenlaptrinh@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ]
+    }
+}
