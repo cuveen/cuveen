@@ -47,7 +47,7 @@ return array(
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Chihuahua',
     /*
     |--------------------------------------------------------------------------
     | Controller File Location
@@ -57,5 +57,14 @@ return array(
     | A default has been set 'controllers' for you but a different location may be specified
     |
     */
-    'controllers' => env('CONTROLLER_PATH','controllers')
+    'controllers' => env('CONTROLLER_PATH','controllers'),
+    /*
+    |--------------------------------------------------------------------------
+    | User class for authentication
+    |--------------------------------------------------------------------------
+    |
+    | We need set User class ofr authentication.
+    |
+    */
+    'user_class'=> env('USER_CLASS','User')
 );
