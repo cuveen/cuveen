@@ -6,8 +6,12 @@ namespace Cuveen\Model;
 
 class User extends Model
 {
-    public function all()
-    {
-        $this->db->get('users');
-    }
+    /*
+     * -------------------------------------------------------------
+     * YOU CAN SET MANUALLY TABLE AND PRIMARY COLUMN
+     *--------------------------------------------------------------
+     * public static $_id_column = 'id';
+     * public static $_table = 'users';
+     *
+     * */
 }
