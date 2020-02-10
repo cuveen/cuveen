@@ -1,5 +1,5 @@
 <?php
-use Cuveen\Controller\Controller;
+namespace Cuveen\Controller;
 
 class Welcome extends Controller
 {
