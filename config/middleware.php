@@ -19,5 +19,15 @@ return [
     | Class example: Test@main
     | @var array
     */
-    'except' => []
+    'except' => [],
+    /*
+     * ----------------------------------------------------------------------
+     * The application's route middleware groups.
+     *-----------------------------------------------------------------------
+     * @var array
+     * Example:
+     * 'age' => Cuveen\Middleware\CheckAge::class
+     */
+    'groups'=>[
+    ]
 ];
