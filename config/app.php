@@ -66,5 +66,14 @@ return array(
     | We need set User class ofr authentication.
     |
     */
-    'user_class'=> env('USER_CLASS','User')
+    'user_class'=> env('USER_CLASS','User'),
+    /*
+    |--------------------------------------------------------------------------
+    | 404 Not Found Handing File
+    |--------------------------------------------------------------------------
+    |
+    | The default 404 handler sets a 404 status code and exits. You can override this default 404 handler by using
+    |
+    */
+    'notfound' => '404.html'
 );
