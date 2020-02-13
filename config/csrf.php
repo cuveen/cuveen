@@ -20,5 +20,5 @@ return [
     | to immediately expire on the browser closing, set that option.
     |
     */
-    'lifetime' => env('TOKEN_LIFETIME','120'),
+    'lifetime' => (int)env('TOKEN_LIFETIME','120'),
 ];
