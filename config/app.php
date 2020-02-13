@@ -71,7 +71,7 @@ return array(
     |--------------------------------------------------------------------------
     | 404 Not Found Handing File
     |--------------------------------------------------------------------------
-    |
+    | Accept PHP file, HTML file
     | The default 404 handler sets a 404 status code and exits. You can override this default 404 handler by using
     |
     */
